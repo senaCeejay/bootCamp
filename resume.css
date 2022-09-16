@@ -1,0 +1,66 @@
+.fs-4 {
+    color: black;
+    padding-top: 15px;
+
+}
+
+.text-center {
+    box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -1px 1px 4px -1px rgba(0, 0, 0, 0.24);
+}
+
+#container-4 {
+    box-shadow: -6px -5px 11px -1px rgba(0,0,0,0.22);
+    -webkit-box-shadow: -6px -5px 11px -1px rgba(0,0,0,0.22);
+    -moz-box-shadow: -6px -5px 11px -1px rgba(0,0,0,0.22);
+}
+
+.mountain {
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+}
+
+#row-1 {
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    padding: 10px 0 10px 0;
+}
+
+#container-3 {
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: -1px 1px 5px -1px rgba(0, 0, 0, 0.78);
+    padding: 20px 0 20px 0;
+    margin-top: 20px;
+}
+
+#row-3 {
+    padding: 0px 10px 0px 10px;
+}
+
+.btn {
+    width: 100%;
+    border: 1px solid gray;
+}
+.btn:hover{
+    color: white;
+    background-color: lightgray;
+}
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.card:hover{
+    margin-top: -10px;
+}
+.col-lg-12 img{
+    width: 40px;
+    padding: 5px;
+}

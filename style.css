@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://thumbs.dreamstime.com/b/grainy-white-paper-surface-as-texture-background-close-up-macro-200678301.jpg);
+  font-family: "Tahoma";
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(70, 130, 180);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.navbar li {
+  padding: 10px 7% 10px 5%;
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: darkblue;
+}
+
+.container img {
+  margin: auto auto;
+  display: block;
+  width: auto;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: auto;
+}
+
+.container h1 {
+  color: rgb(70, 130, 180)
+}
+
+.con-center {
+  display: flex;
+  width: auto;
+}
+
+.con-left {
+  margin-left: auto;
+  margin-right: 0;
+  width: auto;
+}
+
+.con-right {
+  margin-left: 0;
+  margin-right: auto;
+  width: auto;
+}
+.con-right h1{
+  color: rgb(70, 130, 180);
+}
+
+
+
+.save-huell {
+  padding-top: 30px;
+  margin-bottom: 150px
+}
+
+.save-huell a {
+  font-size: 180%;
+  color: magenta;
+}
+
+.save-huell a:visited {
+  color: orange;
+}
+
+.save-huell a:link {
+  color: blue;
+}
+
+.save-huell a:hover {
+  color: magenta;
+}
+
+.save-huell a:active {
+  color: lime;
+}
+
+.outer-cross {
+  display: flex;
+}
+
+.cross {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+}
+
+#cross-left {
+  width: 150px;
+  float: left;
+}
+
+#cross-right {
+  width: 150px;
+  float: right;
+}
+
+.footer {
+  font-size: 70%;
+  color: rgb(192, 192, 192);
+  text-align: center;
+}
+
+.footer a {
+  color: rgb(192, 192, 192);
+}
+
+table,
+th,
+td {
+  border: 1px dotted black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.center td:hover {
+  background-color: orange;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .outer-gallery {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid red;
+
+}
+
+.gallery img {
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  display: inline;
+}*/
+.gallery-container {
+  display: flex;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  display: inline;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+}
